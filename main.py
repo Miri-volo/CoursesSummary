@@ -74,8 +74,8 @@ def fetch_course(courses):
                         break
                 location = re.findall("(?:מקוון|היברידי|בכיתה)", text)
                 location = set(location) if len(location) > 0 else {}
-                courseName= data[13]
-                print("קורס: " +  courseName+ " " + course + ":\nקישור:\n" + url +"\nלחץ על הקישור ומלא את הפרטים")
+                courseName = data[13]
+                print("קורס: " + courseName + " " + course + ":\nקישור:\n" + url + "\nלחץ על הקישור ומלא את הפרטים")
                 print("מבחן? (כן/לא)")
                 exam = input()
                 print("עבודות? (כן/לא)")
@@ -85,9 +85,9 @@ def fetch_course(courses):
                 print("נוכחות חובה? (כן/לא)")
                 mandatory = input()
                 coursesData[course] = {"שם": courseName, "מספר": course, "נקז": data[18], "תקציר": summary,
-                                       'מבחן': exam, 'בוחן': midterm, 'עבודות': hw, 'נוכחות חובה': mandatory, 'מיקום': location,
+                                       'מבחן': exam, 'בוחן': midterm, 'עבודות': hw, 'נוכחות חובה': mandatory,
+                                       'מיקום': location,
                                        "קישור": url}
-                print(coursesData[course])
         except Exception as e:
             print("course: " + course + " URL: " + url + "\nerror: " + str(e))
     df = pd.DataFrame(coursesData.values(), index=coursesData.keys())
@@ -117,5 +117,4 @@ def fetch_course(courses):
 
 if __name__ == '__main__':
     courses = fetch_courses()
-    print(courses)
     fetch_course(courses)
