@@ -45,7 +45,7 @@ https://bgu4u.bgu.ac.il/pls/scwp/!app.ann?lang=he&rc_rowid=&lang=he&st=a&step=3&
 אם טעית ואתה רוצה לכתוב מחדש את הקורס הזה תכתוב: שגיאה, אחרת תלחץ Enter
 ```
 
-By default it is configured for the 4th year of a Software Engineering Bachelor's
+By default it is configured to general courses for the 4th year of a Software Engineering Bachelor's
 degree. If you wish to change it, modify the variables defined at the top of the
 script to your preference:
 
