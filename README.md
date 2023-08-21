@@ -10,6 +10,10 @@ Summary of courses (exel file, that you can filter by your choise) you can take 
 - location (zoom, class or hybrid)
 - summary
 - link to the course syllabus
+
+https://github.com/Miri-volo/CoursesSummary/assets/75314138/c5c6104c-2ab6-4a87-85dc-4dad2f27fa0c
+
+
 ## How to run:
 - Clone this repo
 -  Add python interpreter (i use python 3.11.4)
