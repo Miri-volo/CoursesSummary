@@ -41,8 +41,16 @@ gloabl_courses = "3" #רק כללי
     -  1 for both.
 
 ## Explanation
-```def fetch_courses():```
-Fetch courses
+```def fetch_courses():```  
+Fetch relevant courses numbers from https://bgu4u.bgu.ac.il/pls/scwp/!app.gate?app=dco  
+Returns an array of strings (courses numbers)  
+
+```def fetch_names(courses):``` (not using this function any more, but it can be helpful)  
+Make a dictionary from course number and name from https://bgu4u.bgu.ac.il/pls/scwp/!app.gate?app=ann  
+
+```def fetch_courses_data(courses):```  
+Make a beautiful Excel file from relevant courses information from https://bgu4u.bgu.ac.il/pls/scwp/!app.gate?app=ann  
+
 
 
 
