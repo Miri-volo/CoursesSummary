@@ -101,4 +101,3 @@ Make a beautiful Excel file from relevant courses information.
 - <a href="https://pypi.org/project/pyquery/">PyQuery</a>- converts html to text
 - <a href="https://xlsxwriter.readthedocs.io/working_with_pandas.html">Pandas and XlsxWriter</a> to make beautiful exel file and table.
 - <a href="https://pypi.org/project/PyPDF2/">PyPDF2</a> for reading PDF file.
-- <a>
