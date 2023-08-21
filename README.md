@@ -17,26 +17,25 @@ year_degree = "4" # שנה בתואר
 degree_level = "1" #תואר ראשון
 gloabl_courses = "3" #רק כללי
 ```
-- year - the current year 
-- semester - the current semseter
+- **year** - the current year 
+- **semester** - the current semseter
     -  1- fist semster/autumn
     -  2- second semester/spring
     -  3- summer semester
-- department - department number -
+- **department** - department number -
     -  373 software engineerig
     -  202 computer science
     -  ... any other department
-- year_degree - degree year
+- **year_degree** - degree year
     -  1- fist year
     -  2- second year
     -  3- third year
-    -  ...
-- degree_level - academic degree
+- **degree_level** - academic degree
     -  1- bachelor
     -  2- master
     -  3- Doctor 
-- gloabl_courses- which courses to show
-    -  3 if for General course
+- **gloabl_courses**- which courses to show
+    -  3 for general course (קורס כללי)
     -  2 for regular courses
     -  1 for both.
 
